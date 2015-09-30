@@ -60,7 +60,7 @@ public final class App {
 
 			log.info("Result: {}", fn.apply(url));
 
-			log.info("Open: {}, In: {}, Out: {}",open.getValue(), in.getValue(), out.getValue());
+			log.info("Open: {}, In: {}, Out: {}",open.getAllocated(), in.getAllocated(), out.getAllocated());
 		}
 	}
 }
